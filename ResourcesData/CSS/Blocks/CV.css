@@ -1,0 +1,100 @@
+.cv {
+	background-color: #222831;
+	display: flex;
+	height: 740rem;
+}
+
+.cv-header {
+	color: #EEEEEE;
+	font-family: "Poppins", sans-serif;
+	font-size: 96rem;
+	line-height: 96rem;
+	margin: 128rem 0rem 48rem 96rem;
+}
+
+.cv-header span { color: #00ADB5; }
+.cv-buttons {
+	display: flex;
+	margin-left: 96rem;
+}
+
+.cv-button {
+	align-items: center;
+	background-color: #393E46;
+	border-radius: 24rem;
+	color: #EEEEEE;
+	display: flex;
+	font-family: "Poppins", sans-serif;
+	font-size: 18rem;
+	font-weight: 700;
+	height: 48rem;
+	justify-content: center;
+}
+
+.cv-button-content {
+	margin-right: 24rem;
+	text-decoration: none;
+	width: 136rem;
+}
+
+.cv-button-content:hover,
+.cv-button-content:focus
+{ background-color: #00ADB5; }
+
+.cv-button-download {
+	border: none;
+	width: 224rem;
+}
+
+.cv-button-download:hover,
+.cv-button-download:focus
+{ background-color: #00ADB5; }
+
+.cv-icon {
+	height: 24rem;
+	margin-left: 10rem;
+	width: 24rem;
+}
+
+.cv-right {
+	display: flex;
+	justify-content: right;
+	width: 50%;
+}
+
+.cv-image {
+	height: 580rem;
+	margin: 90rem 96rem 0rem 0rem;
+	width: 535rem;
+}
+
+@media screen and (max-width: 596px) {
+	.cv {
+		display: block;
+		height: 940rem;
+	}
+
+	.cv-left { width: 100%; }
+	.cv-header {
+		font-size: 78rem;
+		margin: 0rem;
+		padding: 128rem 0rem 48rem 0rem;
+		text-align: center;
+	}
+
+	.cv-buttons {
+		justify-content: center;
+		margin: 0rem 0rem 48rem 0rem;
+	}
+
+	.cv-right {
+		justify-content: center;
+		width: 100%;
+	}
+
+	.cv-image {
+		height: 60%;
+		margin: 0rem;
+		width: 60%;
+	}
+}

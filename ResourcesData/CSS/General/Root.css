@@ -1,0 +1,24 @@
+html { font-size: calc(100vw / 1440); }
+body::-webkit-scrollbar { display: none; }
+
+hr {
+	background-color: #222831;
+	border: 1rem solid #EEEEEE1A;
+	margin: 0rem;
+}
+
+.overlay {
+	display: none;
+	height: 100vh;
+	position: absolute;
+	width: 100vw;
+}
+
+:focus {
+	box-shadow: 0rem 0rem 8rem #000000;
+	outline: 1rem solid #FFFFFF;
+}
+
+@media screen and (max-width: 596px) {
+	html { font-size: calc(100vw / 596); }
+}

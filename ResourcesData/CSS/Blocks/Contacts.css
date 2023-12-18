@@ -1,0 +1,129 @@
+.contacts {
+	background-color: #222831;
+	display: flex;
+	height: 740rem;
+}
+
+.contacts-header {
+	color: #EEEEEE;
+	font-family: "Poppins", sans-serif;
+	font-size: 64rem;
+	line-height: 80rem;
+	margin: 158rem 0rem 0rem 96rem;
+}
+
+.contacts-header span { color: #00ADB5; }
+.contacts-image {
+	height: 368rem;
+	margin-left: 278rem;
+	width: 258rem;
+}
+
+.contacts-form {
+	margin: 158rem 96rem 0rem 0rem;
+	width: 50%;
+}
+
+.contacts-label {
+	color: #EEEEEE;
+	display: block;
+	font-family: "Poppins", sans-serif;
+	font-size: 18rem;
+	font-weight: 700;
+	margin-bottom: 10rem;
+}
+
+.form-top {
+	display: flex;
+	justify-content: right;
+	margin-bottom: 24rem;
+}
+
+.contacts-paragraph { margin-right: 24rem; }
+.contacts-input {
+	background-color: #393E4680;
+	border-radius: 16rem;
+	border: none;
+	color: #EEEEEE80;
+	font-family: "Poppins", sans-serif;
+	font-size: 18rem;
+	font-weight: 700;
+	height: 60rem;
+	padding: 0rem 24rem;
+	width: 240rem;
+}
+
+.form-bottom {
+	display: flex;
+	justify-content: right;
+}
+
+.contacts-textarea {
+	background-color: #393E4680;
+	border-radius: 16rem;
+	border: none;
+	color: #EEEEEE80;
+	font-family: "Poppins", sans-serif;
+	font-size: 18rem;
+	font-weight: 700;
+	height: 248rem;
+	margin-bottom: 24rem;
+	overflow: hidden;
+	padding: 16rem 24rem;
+	resize: none;
+	width: 552rem;
+}
+
+.contacts-button-send {
+	align-items: center;
+	background-color: #393E46;
+	border-radius: 24rem;
+	border: none;
+	color: #EEEEEE;
+	display: flex;
+	font-family: "Poppins", sans-serif;
+	font-size: 18rem;
+	font-weight: 700;
+	height: 48rem;
+	justify-content: center;
+	width: 232rem;
+}
+
+.contacts-button-send:hover,
+.contacts-button-send:focus
+{ background-color: #00ADB5; }
+
+.contacts-icon {
+	height: 24rem;
+	margin-left: 10rem;
+	width: 24rem;
+}
+
+@media screen and (max-width: 596px) {
+	.contacts {
+		display: block;
+		height: 940rem;
+	}
+
+	.contacts-left { width: 100%; }
+	.contacts-header {
+		font-size: 80rem;
+		line-height: 96rem;
+		margin: 0rem;
+		padding: 128rem 0rem 48rem 0rem;
+		text-align: center;
+	}
+
+	.contacts-image { display: none; }
+	.contacts-form {
+		margin: 0rem 0rem 0rem 30rem;
+		width: 90%;
+	}
+
+	.form-top { justify-content: center; }
+	.contacts-input { width: 200rem; }
+
+	.form-bottom { justify-content: center; }
+	.contacts-textarea { width: 472rem; }
+	.contacts-button-send { margin: 0rem auto; }
+}

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width">
+		<meta charset="UTF-8">
+
+		<link rel="stylesheet" href="ResourcesData/CSS/General/Normalize.css">
+		<link rel="stylesheet" href="ResourcesData/CSS/General/Root.css">
+
+		<link rel="stylesheet" href="ResourcesData/CSS/Blocks/Header.css">
+		<link rel="stylesheet" href="ResourcesData/CSS/Blocks/Footer.css">
+
+		<link rel="stylesheet" href="ResourcesData/CSS/Mobile/Navigation.css">
+
+		<link rel="stylesheet" href="ResourcesData/CSS/Blocks/CV.css">
+		<link rel="stylesheet" href="ResourcesData/CSS/Blocks/About.css">
+		<link rel="stylesheet" href="ResourcesData/CSS/Blocks/Works.css">
+		<link rel="stylesheet" href="ResourcesData/CSS/Blocks/Contacts.css">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+		<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+		<title>Portfolio</title>
+	</head>
+
+	<body>
+		<div class="overlay"></div>
+
+		<nav class="mobile-navigation">
+			<a class="mobile-navigation-link" href="#about">About Me</a>
+			<a class="mobile-navigation-link" href="#works">Works</a>
+			<a class="mobile-navigation-link" href="#contacts">Contacts</a>
+		</nav>
+
+		<a id="home"></a>
+
+		<header class="header">
+			<a class="header-logo" href="javascript:location.reload()">SaulDesign</a>
+
+			<nav class="header-navigation">
+				<a class="header-button-menu">
+					<img class="header-icon" src="ResourcesData/Icons/Header/Menu.svg" alt="Menu">
+				</a>
+
+				<a class="header-link" href="#about">About Me</a>
+				<a class="header-link" href="#works">Works</a>
+				<a class="header-link" href="#contacts">Contacts</a>
+			</nav>
+		</header>
+
+		<hr>
+
+		<div class="cv">
+			<section>
+				<h1 class="cv-header">CREATIVE UI <span>DESIGNER</span></h1>
+
+				<div class="cv-buttons">
+					<a class="cv-button cv-button-content" href="#contacts">Contacts</a>
+
+					<button class="cv-button cv-button-download" type="button">Download CV
+						<img class="cv-icon" src="ResourcesData/Icons/CV/Download.svg" alt="Download">
+					</button>
+				</div>
+			</section>
+
+			<section class="cv-right">
+				<img class="cv-image" src="ResourcesData/Icons/CV/Human.svg" alt="Human">
+			</section>
+		</div>
+
+		<hr>
+		<a id="about"></a>
+
+		<div class="about">
+			<section class="about-left">
+				<h2 class="about-header">About <span>Me</span></h2>
+
+				<p class="about-paragraph">Effective Web Design is Crucial for Online Success, Impacting User Engagement, Conversion Rates, and Brand Recognition.</p>
+				<p class="about-paragraph">Factors Like Color Schemes, Typography, Page Layout, and User Experience Must be Considered.</p>
+				<p class="about-paragraph">With Mobile Devices, Designs Must be Responsive for Optimal Viewing.</p>
+			</section>
+
+			<section class="about-right">
+				<img class="about-image" src="ResourcesData/Icons/About/Human.svg" alt="Human">
+			</section>
+		</div>
+
+		<hr>
+		<a id="works"></a>
+
+		<div class="works">
+			<section class="works-top">
+				<h2 class="works-header">My Recent <span>Works</span></h2>
+
+				<div class="works-buttons">
+					<button class="works-button works-button-all" type="button">All</button>
+					<button class="works-button works-button-ui" type="button">UI</button>
+					<button class="works-button works-button-ux" type="button">UX</button>
+					<button class="works-button works-button-design" type="button">Web Design</button>
+				</div>
+			</section>
+
+			<section class="works-bottom">
+				<a class="works-link work-ui">
+					<img class="work-image" src="ResourcesData/Icons/Works/Bottom/One.svg" alt="One">
+				</a>
+
+				<a class="works-link work-ux">
+					<img class="work-image" src="ResourcesData/Icons/Works/Bottom/Two.svg" alt="Two">
+				</a>
+
+				<a class="works-link work-design">
+					<img class="work-image" src="ResourcesData/Icons/Works/Bottom/Three.svg" alt="Three">
+				</a>
+			</section>
+		</div>
+
+		<hr>
+		<a id="contacts"></a>
+
+		<div class="contacts">
+			<section>
+				<h2 class="contacts-header">Got a Project in <span>Mind?</span></h2>
+				<img class="contacts-image" src="ResourcesData/Icons/Contacts/Human.svg" alt="Human">
+			</section>
+
+			<form class="contacts-form" method="post">
+				<div class="form-top">
+					<p class="contacts-paragraph">
+						<label class="contacts-label">Your Name</label>
+						<input class="contacts-input" type="text" placeholder="Name" required>
+					</p>
+
+					<p>
+						<label class="contacts-label">Your Email</label>
+						<input class="contacts-input" type="email" placeholder="Email" required>
+					</p>
+				</div>
+
+				<div class="form-bottom">
+					<p>
+						<label class="contacts-label">Your Message</label>
+						<textarea class="contacts-textarea" placeholder="Message" required></textarea>
+
+						<button class="contacts-button-send" type="submit">Send Message
+							<img class="contacts-icon" src="ResourcesData/Icons/Contacts/Message.svg" alt="Message">
+						</button>
+					</p>
+				</div>
+			</form>
+		</div>
+
+		<hr>
+
+		<footer class="footer">
+			<section class="footer-top">
+				<a class="footer-top-link" href="#home">
+					<img class="footer-top-icon" src="ResourcesData/Icons/Footer/Top/Home.svg" alt="Home">Home
+				</a>
+
+				<a class="footer-top-link" href="#about">
+					<img class="footer-top-icon" src="ResourcesData/Icons/Footer/Top/About.svg" alt="About">About
+				</a>
+
+				<a class="footer-top-link" href="#works">
+					<img class="footer-top-icon" src="ResourcesData/Icons/Footer/Top/Works.svg" alt="Works">Works
+				</a>
+
+				<a class="footer-top-link" href="#contacts">
+					<img class="footer-top-icon" src="ResourcesData/Icons/Footer/Top/Contacts.svg" alt="Contacts">Contacts
+				</a>
+			</section>
+
+			<section class="footer-bottom">
+				<a class="footer-bottom-link">
+					<img class="footer-bottom-icon" src="ResourcesData/Icons/Footer/Bottom/Facebook.svg" alt="Facebook">
+				</a>
+
+				<a class="footer-bottom-link">
+					<img class="footer-bottom-icon" src="ResourcesData/Icons/Footer/Bottom/Instagram.svg" alt="Instagram">
+				</a>
+
+				<a class="footer-bottom-link">
+					<img class="footer-bottom-icon" src="ResourcesData/Icons/Footer/Bottom/Twitter.svg" alt="Twitter">
+				</a>
+
+				<a class="footer-bottom-link">
+					<img class="footer-bottom-icon" src="ResourcesData/Icons/Footer/Bottom/YouTube.svg" alt="YouTube">
+				</a>
+			</section>
+		</footer>
+
+		<script src="ResourcesData/Source/Root.js"></script>
+	</body>
+</html>
