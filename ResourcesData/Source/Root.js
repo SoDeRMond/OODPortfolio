@@ -34,15 +34,15 @@ function Works_Correct() {
 
 Button_Menu.addEventListener("click", Navigation_Switch);
 Container_Overlay.addEventListener("click", Navigation_Switch);
-Links_Navigation.forEach(function (Button_Navigation)
+Links_Navigation.forEach(function(Button_Navigation)
 	{ Button_Navigation.addEventListener("click", Navigation_Switch); });
 
 
-Buttons_Works.forEach(function (Button_Work) {
+Buttons_Works.forEach(function(Button_Work) {
 	Button_Work.addEventListener("click", function() {
 		const Attribute_Button = Button_Work.getAttribute("class").split("-").pop();
 
-		Links_Works.forEach(function (Link_Work) {
+		Links_Works.forEach(function(Link_Work) {
 			const Attribute_Work = Link_Work.getAttribute("class").split("-");
 
 			if (Attribute_Work.includes(Attribute_Button) || Attribute_Button === "all")
